@@ -8,5 +8,9 @@
     "svelte": "^3.49.0",
     "vite": "^3.0.8",
     "vite-plugin-ruby": "^3.1.2"
+  },
+  "dependencies": {
+    "@master/css": "^1.35.13",
+    "@master/normal.css": "^1.9.7"
   }
 }

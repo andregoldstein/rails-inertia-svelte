@@ -3,6 +3,9 @@ import axios from 'axios'
 import { createInertiaApp } from '@inertiajs/inertia-svelte'
 import { InertiaProgress } from '@inertiajs/progress'
 
+import '@master/css'
+import '@master/normal.css'
+
 const pages = import.meta.glob('../pages/**/*.svelte')
 
 const csrfToken = document.querySelector('meta[name=csrf-token]').content
